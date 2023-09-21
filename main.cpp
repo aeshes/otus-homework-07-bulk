@@ -145,6 +145,7 @@ public:
             DumpBatch();
         }
     }
+
 private:
     void ClearBatch()
     {
@@ -172,6 +173,7 @@ private:
         }
         return ss.str();
     }
+
     int bulkSize;
     bool blockForced;
     std::vector<Command> commandBatch;
