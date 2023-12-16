@@ -28,7 +28,6 @@ protected:
 	{
 		for (auto sub : subscribers)
 		{
-			std::cout << "accept command" << std::endl;
 			sub->receive(cmd);
 		}
 	}
@@ -72,10 +71,8 @@ public:
 
 	void receive(const command& cmd) override
 	{
-		std::cout << "Accumulator::receive" << std::endl;
 		if (cmd.isOpenScopeCommand())
 		{
-			std::cout << "Open bracket" << std::endl;
 			if (scopeLevel != 0)
 			{
 				flushAccumulatedCommands();
@@ -84,7 +81,6 @@ public:
 		}
 		else if (cmd.isCloseScopeCommand() && (scopeLevel != 0))
 		{
-			std::cout << "Close bracket" << std::endl;
 			--scopeLevel;
 			if (scopeLevel == 0)
 			{
@@ -93,7 +89,6 @@ public:
 		}
 		else
 		{
-			std::cout << "Got command" << std::endl;
 			commands.push_back(cmd);
 			if ((scopeLevel == 0) && commands.size() == bulkSize)
 			{
@@ -113,10 +108,8 @@ public:
 private:
 	void flushAccumulatedCommands()
 	{
-		//std::cout << "Flush commands" << std::endl;
 		for (const command& cmd : commands)
 		{
-			//std::cout << "Accumulator::publish" << std::endl;
 			publish(cmd);
 		}
 		notifyRelax();

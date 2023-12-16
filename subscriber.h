@@ -25,6 +25,7 @@ public:
 	{
 		std::cout << (counter == 0 ? "bulk: " : ", ");
 		std::cout << cmd.body();
+		++counter;
 	}
 
 	void relax()
