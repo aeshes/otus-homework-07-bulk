@@ -1,0 +1,9 @@
+<map id="command_publisher" name="command_publisher">
+<area shape="rect" id="Node000001" title=" " alt="" coords="48,5,186,31"/>
+<area shape="rect" id="Node000002" href="$classbase__publisher.html" title=" " alt="" coords="63,79,171,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,46,120,79,114,79,114,46"/>
+<area shape="rect" id="Node000003" href="$classaccumulator.html" title=" " alt="" coords="5,153,98,178"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,118,64,154,61,150,94,114"/>
+<area shape="rect" id="Node000004" href="$classcommand__reader.html" title=" " alt="" coords="122,153,243,178"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="140,114,173,150,169,154,136,118"/>
+</map>

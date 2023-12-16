@@ -1,0 +1,73 @@
+\doxysection{accumulator Class Reference}
+\hypertarget{classaccumulator}{}\label{classaccumulator}\index{accumulator@{accumulator}}
+
+
+Inheritance diagram for accumulator\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{classaccumulator__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for accumulator\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{classaccumulator__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classaccumulator_a2c51c66c1149693d6090249a962a780d}\label{classaccumulator_a2c51c66c1149693d6090249a962a780d} 
+{\bfseries accumulator} (int bulk\+Size)
+\item 
+void \mbox{\hyperlink{classaccumulator_ad8718fd8ece8a074f6155e8b7048e1f7}{receive}} (const \mbox{\hyperlink{classcommand}{command}} \&cmd) override
+\item 
+void \mbox{\hyperlink{classaccumulator_a39b365113508664e2aa1becbfe2f9baa}{relax}} () override
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classbase__publisher}{base\+\_\+publisher}}}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classbase__publisher_a02b2aad9803c788bc8a637e9e1336ff6}{add\+Subscriber}} (\mbox{\hyperlink{classcommand__subscriber}{command\+\_\+subscriber}} \texorpdfstring{$\ast$}{*}subscriber)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \mbox{\hyperlink{classbase__publisher}{base\+\_\+publisher}}}
+\begin{DoxyCompactItemize}
+\item 
+void {\bfseries publish} (const \mbox{\hyperlink{classcommand}{command}} \&cmd)
+\item 
+void {\bfseries notify\+Relax} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classaccumulator_ad8718fd8ece8a074f6155e8b7048e1f7}\label{classaccumulator_ad8718fd8ece8a074f6155e8b7048e1f7} 
+\index{accumulator@{accumulator}!receive@{receive}}
+\index{receive@{receive}!accumulator@{accumulator}}
+\doxysubsubsection{\texorpdfstring{receive()}{receive()}}
+{\footnotesize\ttfamily void accumulator\+::receive (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classcommand}{command}} \&}]{cmd }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{classcommand__subscriber}{command\+\_\+subscriber}}.
+
+\Hypertarget{classaccumulator_a39b365113508664e2aa1becbfe2f9baa}\label{classaccumulator_a39b365113508664e2aa1becbfe2f9baa} 
+\index{accumulator@{accumulator}!relax@{relax}}
+\index{relax@{relax}!accumulator@{accumulator}}
+\doxysubsubsection{\texorpdfstring{relax()}{relax()}}
+{\footnotesize\ttfamily void accumulator\+::relax (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classcommand__subscriber}{command\+\_\+subscriber}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+publisher.\+h\end{DoxyCompactItemize}

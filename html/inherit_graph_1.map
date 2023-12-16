@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classcommand__publisher.html" title=" " alt="" coords="5,31,143,56"/>
+<area shape="rect" id="Node000001" href="$classbase__publisher.html" title=" " alt="" coords="209,31,318,56"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="158,41,209,41,209,46,158,46"/>
+<area shape="rect" id="Node000002" href="$classaccumulator.html" title=" " alt="" coords="399,55,491,80"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="333,50,398,59,398,64,332,55"/>
+<area shape="rect" id="Node000006" href="$classcommand__reader.html" title=" " alt="" coords="384,5,505,31"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="332,31,383,24,384,29,333,36"/>
+<area shape="rect" id="Node000003" href="$classcommand__subscriber.html" title=" " alt="" coords="191,104,336,130"/>
+<area shape="poly" id="edge4_Node000003_Node000002" title=" " alt="" coords="328,97,398,77,399,83,329,102"/>
+<area shape="rect" id="Node000004" href="$classdefault__printer.html" title=" " alt="" coords="393,104,496,130"/>
+<area shape="poly" id="edge5_Node000003_Node000004" title=" " alt="" coords="351,114,393,114,393,120,351,120"/>
+<area shape="rect" id="Node000005" href="$classfile__printer.html" title=" " alt="" coords="405,153,485,179"/>
+<area shape="poly" id="edge6_Node000003_Node000005" title=" " alt="" coords="329,132,405,153,403,158,327,137"/>
+</map>

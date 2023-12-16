@@ -1,0 +1,9 @@
+<map id="accumulator" name="accumulator">
+<area shape="rect" id="Node000001" title=" " alt="" coords="107,153,199,178"/>
+<area shape="rect" id="Node000002" href="$classcommand__subscriber.html" title=" " alt="" coords="5,79,151,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,114,142,150,138,154,100,117"/>
+<area shape="rect" id="Node000003" href="$classbase__publisher.html" title=" " alt="" coords="175,79,283,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="207,117,167,154,164,150,203,114"/>
+<area shape="rect" id="Node000004" href="$classcommand__publisher.html" title=" " alt="" coords="160,5,297,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="231,46,231,79,226,79,226,46"/>
+</map>

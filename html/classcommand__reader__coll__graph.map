@@ -1,0 +1,7 @@
+<map id="command_reader" name="command_reader">
+<area shape="rect" id="Node000001" title=" " alt="" coords="13,153,135,178"/>
+<area shape="rect" id="Node000002" href="$classbase__publisher.html" title=" " alt="" coords="20,79,128,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="77,120,77,152,71,152,71,120"/>
+<area shape="rect" id="Node000003" href="$classcommand__publisher.html" title=" " alt="" coords="5,5,143,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,46,77,79,71,79,71,46"/>
+</map>

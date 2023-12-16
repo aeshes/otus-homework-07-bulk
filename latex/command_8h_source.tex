@@ -1,0 +1,43 @@
+\doxysection{command.\+h}
+\hypertarget{command_8h_source}{}\label{command_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <ctime>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classcommand}{command}}}
+\DoxyCodeLine{00007\ \{}
+\DoxyCodeLine{00008\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00009\ \ \ \ \ \mbox{\hyperlink{classcommand}{command}}(std::time\_t\ time,\ std::string\&\ body)}
+\DoxyCodeLine{00010\ \ \ \ \ \ \ \ \ :\ timestamp(time),\ cmd(body)}
+\DoxyCodeLine{00011\ \ \ \ \ \{}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \ \ \ \ \}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \ \ \ \ std::time\_t\ time()\textcolor{keyword}{\ const}}
+\DoxyCodeLine{00016\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00017\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ timestamp;}
+\DoxyCodeLine{00018\ \ \ \ \ \}}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \ \ \ \ std::string\ body()\textcolor{keyword}{\ const}}
+\DoxyCodeLine{00021\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00022\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ cmd;}
+\DoxyCodeLine{00023\ \ \ \ \ \}}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{bool}\ isOpenScopeCommand()\textcolor{keyword}{\ const}}
+\DoxyCodeLine{00026\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00027\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ cmd\ ==\ \textcolor{stringliteral}{"{}\{"{}};}
+\DoxyCodeLine{00028\ \ \ \ \ \}}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{bool}\ isCloseScopeCommand()\textcolor{keyword}{\ const}}
+\DoxyCodeLine{00031\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ cmd\ ==\ \textcolor{stringliteral}{"{}\}"{}};}
+\DoxyCodeLine{00033\ \ \ \ \ \}}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00036\ \ \ \ \ std::time\_t\ timestamp;}
+\DoxyCodeLine{00037\ \ \ \ \ std::string\ cmd;}
+\DoxyCodeLine{00038\ \};}
+
+\end{DoxyCode}
